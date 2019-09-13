@@ -1,0 +1,138 @@
+
+.MainFrame
+{
+    height: 100vh;
+    display: flex;
+    color: white;
+    
+    background-image: radial-gradient(
+        at 10% 10%,
+        #78909c 30%,
+        #ff7043 100%
+    );
+}
+
+.FormBody
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 90px;
+    width: 400px;
+    height: auto;
+    background-color: #263238;
+    padding: 25px 40px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.PageSwitcher
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 10px;
+}
+
+.PageSwitcher_Item
+{
+    background-color: #4C5D72;
+    color: #9DA6B1;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: .9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.PageSwitcher_Item--Active
+{
+    background-color: #d84315;
+    color: white;
+    text-shadow: 11px;
+    background-image: radial-gradient(
+        at 10% 10%,
+        #ff7043 30%,
+        #ff5722 
+    );
+}
+
+.PageSwitcher_Item:first-child
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.PageSwitcher_Item:last-child
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.FormCenter
+{
+    margin-bottom: 10px;
+}
+
+.FormField
+{
+    margin-bottom: 20px;
+}
+
+.FormField_Label
+{
+    display: block;
+    text-transform: uppercase;
+    font-size: .7em;
+    color: white;
+}
+
+.FormField_Input
+{
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid #445366;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.FormField_Input::placeholder
+{
+    color: #616E8F;
+}
+
+.FormField_Button
+{
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding:13px 65px;
+    font-size: .8em;
+    font-weight: 400;
+    cursor: pointer;
+    background-image: radial-gradient(
+        at 10% 10%,
+        #ff7043 30%,
+        #ff5722 
+    );
+}
+
+.FormField_Link
+{
+    color: snow;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1.5px solid #225E62;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    font-size: .8em;
+    justify-content: center;
+}
